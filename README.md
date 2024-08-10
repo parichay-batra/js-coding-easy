@@ -148,7 +148,7 @@ const func = (arg1, arg2, callback) => {
 }
 ```
 You see what needs to be done now. Please implement promisify() to make the code better.
-  ```
+```
 const promisedFunc = promisify(func)
 promisedFunc().then((data) => {
   // handles data
@@ -156,7 +156,7 @@ promisedFunc().then((data) => {
   // handles error
 })
 
-```
+
 
 # Debounce is a common technique used in Web Application, in most cases using lodash solution would be a good choice.
 
@@ -345,4 +345,3 @@ Follow up
 
 Could you solve it with and without recursion?
 
-# 
